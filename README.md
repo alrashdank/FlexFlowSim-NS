@@ -33,8 +33,8 @@ and an interactive Streamlit dashboard.
 ### Setup
 
 ```bash
-git clone https://github.com/alrashdank/FlexFlowSim.git
-cd FlexFlowSim
+git clone https://github.com/alrashdank/FlexFlowSim-NS.git
+cd FlexFlowSim-NS
 pip install -r requirements.txt
 ```
 
