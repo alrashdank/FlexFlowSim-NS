@@ -33,6 +33,7 @@ training_log*.json
 # Evaluation outputs
 *.xlsx
 *.csv
+!paper5/results/*.csv
 
 # Figures
 *.png
