@@ -1,2 +1,6 @@
-config,mean,std,count
-bakery_breakdowns_A90,270.92,50.98,50
+config,severity,mean,std,count
+electronics_breakdowns_A70_nsaware,0.7,203.09,57.54,250
+electronics_breakdowns_A80_nsaware,0.8,216.79,59.59,250
+electronics_breakdowns_A90_nsaware,0.9,191.81,52.05,250
+electronics_breakdowns_A95_nsaware,0.95,169.59,44.41,250
+electronics_breakdowns_A99_nsaware,0.99,174.29,47.36,250
