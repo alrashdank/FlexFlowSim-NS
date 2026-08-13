@@ -1,0 +1,180 @@
+{
+  "_instance": "j15c5d1",
+  "_instance_source": "file",
+  "_overlay": "CN-overlay v1 (see cn_make_configs.py header)",
+  "stages": [
+    {
+      "name": "Stage1",
+      "servers": [
+        {
+          "name": "S1M1",
+          "service_time": {
+            "distribution": "normal",
+            "mean": 11.2898,
+            "std": 3.3869,
+            "min": 0.5
+          },
+          "processing_cost": 1.2162,
+          "idle_cost": 0.4
+        },
+        {
+          "name": "S1M2",
+          "service_time": {
+            "distribution": "normal",
+            "mean": 14.1123,
+            "std": 4.2337,
+            "min": 0.5
+          },
+          "processing_cost": 0.973,
+          "idle_cost": 0.4
+        },
+        {
+          "name": "S1M3",
+          "service_time": {
+            "distribution": "normal",
+            "mean": 16.9347,
+            "std": 5.0804,
+            "min": 0.5
+          },
+          "processing_cost": 0.8108,
+          "idle_cost": 0.4
+        }
+      ]
+    },
+    {
+      "name": "Stage2",
+      "servers": [
+        {
+          "name": "S2M1",
+          "service_time": {
+            "distribution": "normal",
+            "mean": 12.5645,
+            "std": 3.7693,
+            "min": 0.5
+          },
+          "processing_cost": 1.2162,
+          "idle_cost": 0.4
+        },
+        {
+          "name": "S2M2",
+          "service_time": {
+            "distribution": "normal",
+            "mean": 15.7056,
+            "std": 4.7117,
+            "min": 0.5
+          },
+          "processing_cost": 0.973,
+          "idle_cost": 0.4
+        },
+        {
+          "name": "S2M3",
+          "service_time": {
+            "distribution": "normal",
+            "mean": 18.8467,
+            "std": 5.654,
+            "min": 0.5
+          },
+          "processing_cost": 0.8108,
+          "idle_cost": 0.4
+        }
+      ]
+    },
+    {
+      "name": "Stage3",
+      "servers": [
+        {
+          "name": "S3M1",
+          "service_time": {
+            "distribution": "normal",
+            "mean": 11.7451,
+            "std": 3.5235,
+            "min": 0.5
+          },
+          "processing_cost": 1.2,
+          "idle_cost": 0.4
+        },
+        {
+          "name": "S3M2",
+          "service_time": {
+            "distribution": "normal",
+            "mean": 17.6176,
+            "std": 5.2853,
+            "min": 0.5
+          },
+          "processing_cost": 0.8,
+          "idle_cost": 0.4
+        }
+      ]
+    },
+    {
+      "name": "Stage4",
+      "servers": [
+        {
+          "name": "S4M1",
+          "service_time": {
+            "distribution": "normal",
+            "mean": 11.1988,
+            "std": 3.3596,
+            "min": 0.5
+          },
+          "processing_cost": 1.2162,
+          "idle_cost": 0.4
+        },
+        {
+          "name": "S4M2",
+          "service_time": {
+            "distribution": "normal",
+            "mean": 13.9985,
+            "std": 4.1995,
+            "min": 0.5
+          },
+          "processing_cost": 0.973,
+          "idle_cost": 0.4
+        },
+        {
+          "name": "S4M3",
+          "service_time": {
+            "distribution": "normal",
+            "mean": 16.7982,
+            "std": 5.0395,
+            "min": 0.5
+          },
+          "processing_cost": 0.8108,
+          "idle_cost": 0.4
+        }
+      ]
+    },
+    {
+      "name": "Stage5",
+      "servers": [
+        {
+          "name": "S5M1",
+          "service_time": {
+            "distribution": "normal",
+            "mean": 16.5023,
+            "std": 4.9507,
+            "min": 0.5
+          },
+          "processing_cost": 1.0,
+          "idle_cost": 0.4
+        }
+      ]
+    }
+  ],
+  "arrival": {
+    "distribution": "exponential",
+    "mean": 18.3359
+  },
+  "waiting_cost": 0.1,
+  "max_time": 480,
+  "dt": 1,
+  "max_queue": 50,
+  "norm_constants": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "breakdowns": {
+    "enabled": false
+  }
+}

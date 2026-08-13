@@ -1,0 +1,32 @@
+| Instance | Severity | Leader | SQ rank | SQ margin vs best other |
+|---|---|---|---|---|
+| j10c5a2 | A070 | Random | 6 | -4.4% |
+| j10c5a2 | A090 | Random | 6 | -3.0% |
+| j10c5a2 | stationary | ShortestQueue | 1 | +0.1% |
+| j10c5b1 | A070 | RoundRobin | 5 | -4.8% |
+| j10c5b1 | A090 | HBQ | 3 | -0.2% |
+| j10c5b1 | stationary | Random | 5 | -6.3% |
+| j10c5c1 | A070 | HBQ | 4 | -4.8% |
+| j10c5c1 | A090 | HBQ | 2 | -1.6% |
+| j10c5c1 | stationary | HBQ | 2 | -1.8% |
+| j10c5d1 | A070 | VanillaTS | 6 | -18.3% |
+| j10c5d1 | A090 | VanillaTS | 6 | -8.7% |
+| j10c5d1 | stationary | HBQ | 4 | -4.0% |
+| j15c10a1 | A070 | Random | 2 | -0.4% |
+| j15c10a1 | A090 | ShortestQueue | 1 | +0.0% |
+| j15c10a1 | stationary | ShortestQueue | 1 | +0.0% |
+| j15c10b1 | A070 | HBQ | 2 | -0.7% |
+| j15c10b1 | A090 | ShortestQueue | 1 | +0.2% |
+| j15c10b1 | stationary | ShortestQueue | 1 | +0.2% |
+| j15c5a1 | A070 | Random | 3 | -1.5% |
+| j15c5a1 | A090 | Random | 2 | -0.7% |
+| j15c5a1 | stationary | RoundRobin | 3 | -0.2% |
+| j15c5b1 | A070 | VanillaTS | 5 | -2.6% |
+| j15c5b1 | A090 | VanillaTS | 2 | -1.0% |
+| j15c5b1 | stationary | RoundRobin | 4 | -1.8% |
+| j15c5c1 | A070 | Random | 6 | -6.0% |
+| j15c5c1 | A090 | HBQ | 3 | -3.7% |
+| j15c5c1 | stationary | HBQ | 3 | -3.7% |
+| j15c5d1 | A070 | HBQ | 4 | -1.4% |
+| j15c5d1 | A090 | Random | 4 | -2.9% |
+| j15c5d1 | stationary | RoundRobin | 6 | -4.1% |

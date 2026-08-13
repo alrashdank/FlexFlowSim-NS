@@ -1,0 +1,482 @@
+[
+  {
+    "instance": "j10c5a2",
+    "severity": "stationary",
+    "config": "j10c5a2__stationary.json",
+    "k": 5,
+    "machines": [
+      3,
+      3,
+      1,
+      3,
+      3
+    ],
+    "n_actions": 81,
+    "interarrival_mu": 13.9888
+  },
+  {
+    "instance": "j10c5a2",
+    "severity": "A090",
+    "config": "j10c5a2__A090.json",
+    "k": 5,
+    "machines": [
+      3,
+      3,
+      1,
+      3,
+      3
+    ],
+    "n_actions": 81,
+    "interarrival_mu": 13.9888
+  },
+  {
+    "instance": "j10c5a2",
+    "severity": "A070",
+    "config": "j10c5a2__A070.json",
+    "k": 5,
+    "machines": [
+      3,
+      3,
+      1,
+      3,
+      3
+    ],
+    "n_actions": 81,
+    "interarrival_mu": 13.9888
+  },
+  {
+    "instance": "j10c5b1",
+    "severity": "stationary",
+    "config": "j10c5b1__stationary.json",
+    "k": 5,
+    "machines": [
+      1,
+      3,
+      3,
+      3,
+      3
+    ],
+    "n_actions": 81,
+    "interarrival_mu": 17.8947
+  },
+  {
+    "instance": "j10c5b1",
+    "severity": "A090",
+    "config": "j10c5b1__A090.json",
+    "k": 5,
+    "machines": [
+      1,
+      3,
+      3,
+      3,
+      3
+    ],
+    "n_actions": 81,
+    "interarrival_mu": 17.8947
+  },
+  {
+    "instance": "j10c5b1",
+    "severity": "A070",
+    "config": "j10c5b1__A070.json",
+    "k": 5,
+    "machines": [
+      1,
+      3,
+      3,
+      3,
+      3
+    ],
+    "n_actions": 81,
+    "interarrival_mu": 17.8947
+  },
+  {
+    "instance": "j10c5c1",
+    "severity": "stationary",
+    "config": "j10c5c1__stationary.json",
+    "k": 5,
+    "machines": [
+      3,
+      3,
+      2,
+      3,
+      3
+    ],
+    "n_actions": 162,
+    "interarrival_mu": 8.5981
+  },
+  {
+    "instance": "j10c5c1",
+    "severity": "A090",
+    "config": "j10c5c1__A090.json",
+    "k": 5,
+    "machines": [
+      3,
+      3,
+      2,
+      3,
+      3
+    ],
+    "n_actions": 162,
+    "interarrival_mu": 8.5981
+  },
+  {
+    "instance": "j10c5c1",
+    "severity": "A070",
+    "config": "j10c5c1__A070.json",
+    "k": 5,
+    "machines": [
+      3,
+      3,
+      2,
+      3,
+      3
+    ],
+    "n_actions": 162,
+    "interarrival_mu": 8.5981
+  },
+  {
+    "instance": "j10c5d1",
+    "severity": "stationary",
+    "config": "j10c5d1__stationary.json",
+    "k": 5,
+    "machines": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "n_actions": 243,
+    "interarrival_mu": 6.0749
+  },
+  {
+    "instance": "j10c5d1",
+    "severity": "A090",
+    "config": "j10c5d1__A090.json",
+    "k": 5,
+    "machines": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "n_actions": 243,
+    "interarrival_mu": 6.0749
+  },
+  {
+    "instance": "j10c5d1",
+    "severity": "A070",
+    "config": "j10c5d1__A070.json",
+    "k": 5,
+    "machines": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "n_actions": 243,
+    "interarrival_mu": 6.0749
+  },
+  {
+    "instance": "j15c10a1",
+    "severity": "stationary",
+    "config": "j15c10a1__stationary.json",
+    "k": 10,
+    "machines": [
+      1,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "n_actions": 19683,
+    "interarrival_mu": 21.2922
+  },
+  {
+    "instance": "j15c10a1",
+    "severity": "A090",
+    "config": "j15c10a1__A090.json",
+    "k": 10,
+    "machines": [
+      1,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "n_actions": 19683,
+    "interarrival_mu": 21.2922
+  },
+  {
+    "instance": "j15c10a1",
+    "severity": "A070",
+    "config": "j15c10a1__A070.json",
+    "k": 10,
+    "machines": [
+      1,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "n_actions": 19683,
+    "interarrival_mu": 21.2922
+  },
+  {
+    "instance": "j15c10b1",
+    "severity": "stationary",
+    "config": "j15c10b1__stationary.json",
+    "k": 10,
+    "machines": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      1
+    ],
+    "n_actions": 19683,
+    "interarrival_mu": 18.4149
+  },
+  {
+    "instance": "j15c10b1",
+    "severity": "A090",
+    "config": "j15c10b1__A090.json",
+    "k": 10,
+    "machines": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      1
+    ],
+    "n_actions": 19683,
+    "interarrival_mu": 18.4149
+  },
+  {
+    "instance": "j15c10b1",
+    "severity": "A070",
+    "config": "j15c10b1__A070.json",
+    "k": 10,
+    "machines": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      1
+    ],
+    "n_actions": 19683,
+    "interarrival_mu": 18.4149
+  },
+  {
+    "instance": "j15c5a1",
+    "severity": "stationary",
+    "config": "j15c5a1__stationary.json",
+    "k": 5,
+    "machines": [
+      3,
+      3,
+      1,
+      3,
+      3
+    ],
+    "n_actions": 81,
+    "interarrival_mu": 18.622
+  },
+  {
+    "instance": "j15c5a1",
+    "severity": "A090",
+    "config": "j15c5a1__A090.json",
+    "k": 5,
+    "machines": [
+      3,
+      3,
+      1,
+      3,
+      3
+    ],
+    "n_actions": 81,
+    "interarrival_mu": 18.622
+  },
+  {
+    "instance": "j15c5a1",
+    "severity": "A070",
+    "config": "j15c5a1__A070.json",
+    "k": 5,
+    "machines": [
+      3,
+      3,
+      1,
+      3,
+      3
+    ],
+    "n_actions": 81,
+    "interarrival_mu": 18.622
+  },
+  {
+    "instance": "j15c5b1",
+    "severity": "stationary",
+    "config": "j15c5b1__stationary.json",
+    "k": 5,
+    "machines": [
+      1,
+      3,
+      3,
+      3,
+      3
+    ],
+    "n_actions": 81,
+    "interarrival_mu": 17.4988
+  },
+  {
+    "instance": "j15c5b1",
+    "severity": "A090",
+    "config": "j15c5b1__A090.json",
+    "k": 5,
+    "machines": [
+      1,
+      3,
+      3,
+      3,
+      3
+    ],
+    "n_actions": 81,
+    "interarrival_mu": 17.4988
+  },
+  {
+    "instance": "j15c5b1",
+    "severity": "A070",
+    "config": "j15c5b1__A070.json",
+    "k": 5,
+    "machines": [
+      1,
+      3,
+      3,
+      3,
+      3
+    ],
+    "n_actions": 81,
+    "interarrival_mu": 17.4988
+  },
+  {
+    "instance": "j15c5c1",
+    "severity": "stationary",
+    "config": "j15c5c1__stationary.json",
+    "k": 5,
+    "machines": [
+      3,
+      3,
+      2,
+      3,
+      3
+    ],
+    "n_actions": 162,
+    "interarrival_mu": 7.7828
+  },
+  {
+    "instance": "j15c5c1",
+    "severity": "A090",
+    "config": "j15c5c1__A090.json",
+    "k": 5,
+    "machines": [
+      3,
+      3,
+      2,
+      3,
+      3
+    ],
+    "n_actions": 162,
+    "interarrival_mu": 7.7828
+  },
+  {
+    "instance": "j15c5c1",
+    "severity": "A070",
+    "config": "j15c5c1__A070.json",
+    "k": 5,
+    "machines": [
+      3,
+      3,
+      2,
+      3,
+      3
+    ],
+    "n_actions": 162,
+    "interarrival_mu": 7.7828
+  },
+  {
+    "instance": "j15c5d1",
+    "severity": "stationary",
+    "config": "j15c5d1__stationary.json",
+    "k": 5,
+    "machines": [
+      3,
+      3,
+      2,
+      3,
+      1
+    ],
+    "n_actions": 54,
+    "interarrival_mu": 18.3359
+  },
+  {
+    "instance": "j15c5d1",
+    "severity": "A090",
+    "config": "j15c5d1__A090.json",
+    "k": 5,
+    "machines": [
+      3,
+      3,
+      2,
+      3,
+      1
+    ],
+    "n_actions": 54,
+    "interarrival_mu": 18.3359
+  },
+  {
+    "instance": "j15c5d1",
+    "severity": "A070",
+    "config": "j15c5d1__A070.json",
+    "k": 5,
+    "machines": [
+      3,
+      3,
+      2,
+      3,
+      1
+    ],
+    "n_actions": 54,
+    "interarrival_mu": 18.3359
+  }
+]

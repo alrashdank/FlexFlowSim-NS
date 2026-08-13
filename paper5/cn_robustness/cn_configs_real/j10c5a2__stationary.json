@@ -1,0 +1,191 @@
+{
+  "_instance": "j10c5a2",
+  "_instance_source": "file",
+  "_overlay": "CN-overlay v1 (see cn_make_configs.py header)",
+  "stages": [
+    {
+      "name": "Stage1",
+      "servers": [
+        {
+          "name": "S1M1",
+          "service_time": {
+            "distribution": "normal",
+            "mean": 12.6619,
+            "std": 3.7986,
+            "min": 0.5
+          },
+          "processing_cost": 1.2162,
+          "idle_cost": 0.4
+        },
+        {
+          "name": "S1M2",
+          "service_time": {
+            "distribution": "normal",
+            "mean": 15.8273,
+            "std": 4.7482,
+            "min": 0.5
+          },
+          "processing_cost": 0.973,
+          "idle_cost": 0.4
+        },
+        {
+          "name": "S1M3",
+          "service_time": {
+            "distribution": "normal",
+            "mean": 18.9928,
+            "std": 5.6978,
+            "min": 0.5
+          },
+          "processing_cost": 0.8108,
+          "idle_cost": 0.4
+        }
+      ]
+    },
+    {
+      "name": "Stage2",
+      "servers": [
+        {
+          "name": "S2M1",
+          "service_time": {
+            "distribution": "normal",
+            "mean": 10.0719,
+            "std": 3.0216,
+            "min": 0.5
+          },
+          "processing_cost": 1.2162,
+          "idle_cost": 0.4
+        },
+        {
+          "name": "S2M2",
+          "service_time": {
+            "distribution": "normal",
+            "mean": 12.5899,
+            "std": 3.777,
+            "min": 0.5
+          },
+          "processing_cost": 0.973,
+          "idle_cost": 0.4
+        },
+        {
+          "name": "S2M3",
+          "service_time": {
+            "distribution": "normal",
+            "mean": 15.1079,
+            "std": 4.5324,
+            "min": 0.5
+          },
+          "processing_cost": 0.8108,
+          "idle_cost": 0.4
+        }
+      ]
+    },
+    {
+      "name": "Stage3",
+      "servers": [
+        {
+          "name": "S3M1",
+          "service_time": {
+            "distribution": "normal",
+            "mean": 12.5899,
+            "std": 3.777,
+            "min": 0.5
+          },
+          "processing_cost": 1.0,
+          "idle_cost": 0.4
+        }
+      ]
+    },
+    {
+      "name": "Stage4",
+      "servers": [
+        {
+          "name": "S4M1",
+          "service_time": {
+            "distribution": "normal",
+            "mean": 13.8129,
+            "std": 4.1439,
+            "min": 0.5
+          },
+          "processing_cost": 1.2162,
+          "idle_cost": 0.4
+        },
+        {
+          "name": "S4M2",
+          "service_time": {
+            "distribution": "normal",
+            "mean": 17.2662,
+            "std": 5.1799,
+            "min": 0.5
+          },
+          "processing_cost": 0.973,
+          "idle_cost": 0.4
+        },
+        {
+          "name": "S4M3",
+          "service_time": {
+            "distribution": "normal",
+            "mean": 20.7194,
+            "std": 6.2158,
+            "min": 0.5
+          },
+          "processing_cost": 0.8108,
+          "idle_cost": 0.4
+        }
+      ]
+    },
+    {
+      "name": "Stage5",
+      "servers": [
+        {
+          "name": "S5M1",
+          "service_time": {
+            "distribution": "normal",
+            "mean": 13.3813,
+            "std": 4.0144,
+            "min": 0.5
+          },
+          "processing_cost": 1.2162,
+          "idle_cost": 0.4
+        },
+        {
+          "name": "S5M2",
+          "service_time": {
+            "distribution": "normal",
+            "mean": 16.7266,
+            "std": 5.018,
+            "min": 0.5
+          },
+          "processing_cost": 0.973,
+          "idle_cost": 0.4
+        },
+        {
+          "name": "S5M3",
+          "service_time": {
+            "distribution": "normal",
+            "mean": 20.0719,
+            "std": 6.0216,
+            "min": 0.5
+          },
+          "processing_cost": 0.8108,
+          "idle_cost": 0.4
+        }
+      ]
+    }
+  ],
+  "arrival": {
+    "distribution": "exponential",
+    "mean": 13.9888
+  },
+  "waiting_cost": 0.1,
+  "max_time": 480,
+  "dt": 1,
+  "max_queue": 50,
+  "norm_constants": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "breakdowns": {
+    "enabled": false
+  }
+}
